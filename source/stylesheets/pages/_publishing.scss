@@ -1,10 +1,15 @@
-#home {
+#publishing {
   background-color: #FFFDFD;
   color: #0D0106;
   align-items: center;
   padding: 100px 0;
   justify-content: space-around;
   text-align: center;
+  .home-content {
+    height: 100vh;
+    padding: 100px 0 0 0;
+    text-align: center;
+  }
   p {
     margin-top: 1.5em;
   }
@@ -18,11 +23,25 @@
   }
   .box {
     border: solid 1px #CBD2D0;
-    background-color: #e8e8e8;
+    background-color: #FAFAFA;
     width: 80%;
     border-radius: 5px;
     margin: 1em auto;
     padding: 1em;
+    box-shadow: 2px 4px 19px 0px rgba(203,210,208,1);
+        .box-title {
+      color: #FFFFFF;
+      background-color: #CF001F;
+      font-weight: bold;
+      line-height: 25px;
+      margin: 10px 0;
+      text-transform: uppercase;
+      line-height: 45px;
+      text-align: center;
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
   }
   a {
     text-decoration: none;

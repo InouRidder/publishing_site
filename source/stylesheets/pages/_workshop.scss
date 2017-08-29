@@ -1,4 +1,4 @@
-#home {
+#workshop {
   background-color: #FFFFFF;
   color: #0D0106;
   // align-items: center;
@@ -46,18 +46,18 @@
   li {
     // list-style-type: none;
   }
-}
 
-pre {
-  display: block;
-  padding: 10.5px;
-  margin: 0 0 11px;
-  font-size: 15px;
-  line-height: 1.4;
-  word-break: break-all;
-  word-wrap: break-word;
-  color: #333333;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 2px;
+  pre {
+    display: block;
+    padding: 10.5px;
+    margin: 0 0 11px;
+    font-size: 15px;
+    line-height: 1.4;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
 }
