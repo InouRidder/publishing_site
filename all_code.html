@@ -1,0 +1,718 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title></title>
+    <link href="stylesheets/application-41075c5a.css" rel="stylesheet" />
+    <script src="javascripts/application-93de88c9.js"></script>
+    <link href="images/favicon-980aab0c.png" rel="icon" type="image/png" />
+  </head>
+  <body>
+    <div id="all_code">
+  <div class="step box">
+    <div class="box-title">
+      <h2>
+        All CSS
+      </h2>
+    </div>
+    <pre>
+      <xmp>
+        /* General styling */
+    body {
+      background: rgb(255, 255, 255);
+      margin: 0;
+    }
+
+    h1 {
+      font-family: 'Droid Sans', sans-serif;
+      color: white;
+      font-size: 50px;
+    }
+
+    h2 {
+      font-size: 50px;
+      font-family: 'Droid Sans', sans-serif;
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+    }
+    li {
+      margin: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    /* NAVBAR & BANNER */
+    .navbar #navbar-logo {
+      position: absolute;
+      margin-top: 8px;
+      height: 70px;
+    }
+
+    .navbar .navigation {
+      position: absolute;
+      top: 18px;
+      right: 30px;
+    }
+
+    .navbar a {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .navbar a:hover {
+      color: rgb(200,200,200);
+      text-decoration: none;
+    }
+
+
+    #banner {
+      background-image: url('images/banner.jpg');
+      width: 100%;
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .banner-content {
+      padding: 80px;
+      width: 50%;
+    }
+
+    /* ABOUT */
+    #about {
+      padding: 200px 0;
+    }
+    .card-about {
+      padding: 50px;
+      height: 200px;
+      margin-bottom: 100px;
+    }
+
+    .card-about-title {
+      line-height: 90px;
+    }
+
+    #profile-picture {
+      border-radius: 50%;
+      height: 300px;
+      width: 300px;
+    }
+
+    .profile-section {
+      text-align: center;
+    }
+    .profile-section p {
+      padding: 100px 100px;
+    }
+
+    .navbar {
+      width: 100%;
+      height: 70px;
+      position: relative;
+      color: white;
+      text-align: center;
+    }
+
+
+    /* PROJECTS */
+
+    #projects {
+      background-color: #F5F7F9;
+      width: 100%;
+      padding: 50px 0;
+    }
+
+    .projects-title {
+      text-align: center;
+      width: 100%;
+      padding: 80px 0;
+    }
+
+    .card-project {
+      border-radius: 3px;
+      background-color: #fff;
+      box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
+      transition: box-shadow .2s;
+      margin: 10px;
+    }
+
+    .card-project:hover {
+      opacity: 0.8;
+    }
+
+    .card-project-img {
+      background-color: var(--grey-light);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 230px;
+      transition: opacity .2s;
+      opacity: .8;
+      border-radius: 3px 3px 0 0;
+    }
+
+    .card-project-content   {
+      padding: 30px;
+      padding: 38px;
+      font-weight: bold;
+    }
+
+    /*CONTACT*/
+
+    #contact {
+      padding: 100px 0;
+      background-color: #D2D7DF;
+      text-align: center;
+      margin-top: -16px;
+    }
+
+    /*FOOTER*/
+
+    #footer {
+      width: 100%;
+      text-align: center;
+      background-color: #8D909B;
+      padding: 50px 0;
+    }
+
+    #contact a:hover {
+      color:#F2D398;
+    }
+
+    #footer a:hover {
+      color:#F2D398;
+    }
+
+
+      /* education */
+      #education {
+        }
+
+      .education-title {
+        text-align: center;
+        padding: 30px 0;
+      }
+
+
+
+      .timeline {
+          list-style: none;
+          padding: 20px 0 20px;
+          position: relative;
+      }
+
+          .timeline:before {
+              top: 0;
+              bottom: 0;
+              position: absolute;
+              content: " ";
+              width: 3px;
+              background-color: #eeeeee;
+              left: 50%;
+              margin-left: -1.5px;
+          }
+
+          .timeline > li {
+              margin-bottom: 20px;
+              position: relative;
+          }
+
+              .timeline > li:before,
+              .timeline > li:after {
+                  content: " ";
+                  display: table;
+              }
+
+              .timeline > li:after {
+                  clear: both;
+              }
+
+              .timeline > li:before,
+              .timeline > li:after {
+                  content: " ";
+                  display: table;
+              }
+
+              .timeline > li:after {
+                  clear: both;
+              }
+
+              .timeline > li > .timeline-panel {
+                  width: 46%;
+                  float: left;
+                  border: 1px solid #d4d4d4;
+                  border-radius: 2px;
+                  padding: 20px;
+                  position: relative;
+                  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+                  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+              }
+
+                  .timeline > li > .timeline-panel:before {
+                      position: absolute;
+                      top: 26px;
+                      right: -15px;
+                      display: inline-block;
+                      border-top: 15px solid transparent;
+                      border-left: 15px solid #ccc;
+                      border-right: 0 solid #ccc;
+                      border-bottom: 15px solid transparent;
+                      content: " ";
+                  }
+
+                  .timeline > li > .timeline-panel:after {
+                      position: absolute;
+                      top: 27px;
+                      right: -14px;
+                      display: inline-block;
+                      border-top: 14px solid transparent;
+                      border-left: 14px solid #fff;
+                      border-right: 0 solid #fff;
+                      border-bottom: 14px solid transparent;
+                      content: " ";
+                  }
+
+              .timeline > li > .timeline-badge {
+                  color: #fff;
+                  width: 50px;
+                  height: 50px;
+                  line-height: 50px;
+                  font-size: 1.4em;
+                  text-align: center;
+                  position: absolute;
+                  top: 16px;
+                  left: 50%;
+                  margin-left: -25px;
+                  background-color: #999999;
+                  z-index: 100;
+                  border-top-right-radius: 50%;
+                  border-top-left-radius: 50%;
+                  border-bottom-right-radius: 50%;
+                  border-bottom-left-radius: 50%;
+              }
+
+              .timeline > li.timeline-inverted > .timeline-panel {
+                  float: right;
+              }
+
+                  .timeline > li.timeline-inverted > .timeline-panel:before {
+                      border-left-width: 0;
+                      border-right-width: 15px;
+                      left: -15px;
+                      right: auto;
+                  }
+
+                  .timeline > li.timeline-inverted > .timeline-panel:after {
+                      border-left-width: 0;
+                      border-right-width: 14px;
+                      left: -14px;
+                      right: auto;
+                  }
+
+      .timeline-badge.primary {
+          background-color: #2e6da4 !important;
+      }
+
+      .timeline-badge.success {
+          background-color: #3f903f !important;
+      }
+
+      .timeline-badge.warning {
+          background-color: #f0ad4e !important;
+      }
+
+      .timeline-badge.danger {
+          background-color: #d9534f !important;
+      }
+
+      .timeline-badge.info {
+          background-color: #5bc0de !important;
+      }
+
+      .timeline-title {
+          margin-top: 0;
+          color: inherit;
+      }
+
+      .timeline-body > p,
+      .timeline-body > ul {
+          margin-bottom: 0;
+      }
+
+          .timeline-body > p + p {
+              margin-top: 5px;
+          }
+
+      @media (max-width: 767px) {
+          ul.timeline:before {
+              left: 40px;
+          }
+
+          ul.timeline > li > .timeline-panel {
+              width: calc(100% - 90px);
+              width: -moz-calc(100% - 90px);
+              width: -webkit-calc(100% - 90px);
+          }
+
+          ul.timeline > li > .timeline-badge {
+              left: 15px;
+              margin-left: 0;
+              top: 16px;
+          }
+
+          ul.timeline > li > .timeline-panel {
+              float: right;
+          }
+
+              ul.timeline > li > .timeline-panel:before {
+                  border-left-width: 0;
+                  border-right-width: 15px;
+                  left: -15px;
+                  right: auto;
+              }
+
+              ul.timeline > li > .timeline-panel:after {
+                  border-left-width: 0;
+                  border-right-width: 14px;
+                  left: -14px;
+                  right: auto;
+              }
+      }
+      </xmp>
+    </pre>
+  </div>
+  <div class="step box">
+    <div class="box-title">
+      <h2>
+        All HTML
+      </h2>
+    </div>
+    <pre>
+      <xmp>
+        <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Resume!</title>
+    <meta name="description" content="an amazing description of my coding skills">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/f0e7823756.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <!-- BANNER -->
+    <div id="banner">
+      <!-- NAVBAR -->
+      <div id="navbar">
+        <i class="fa fa-globe fa-2x" aria-hidden="true" id='navbar-logo'></i>
+        <div id="navigation">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#about"> About </a></li>
+            <li class="list-inline-item"><a href="#projects"> Projects </a></li>
+            <li class="list-inline-item"><a href="#education"> Education </a></li>
+            <li class="list-inline-item"><a href="#contact"> Contact </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="banner-content">
+        <h1>
+          Hi! I'm Inou. Programmer, teacher & sustainability enthousiast.
+        </h1>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+      <div id="profile-section" >
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <img src="images/inou_profile_sq.jpg" alt="" id="profile-picture">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vero quas quos corporis aliquid, ipsam asperiores assumenda facilis molestiae consequuntur!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GRID -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 header-title">
+            <h2>
+              Passions
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="card-about">
+              <div class="card-about-title">
+
+                <i class="fa fa-hacker-news fa-3x" aria-hidden="true" style="color:#F2D398;"></i>
+                <h2>
+                  Hacker
+                </h2>
+              </div>
+              <p>
+                I love finding logical solutions
+              </p>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6">
+
+            <div class="card-about">
+              <div class="card-about-title">
+                <i class="fa fa-graduation-cap fa-3x" aria-hidden="true" style="color:#ACBED8;"></i>
+                <h2>
+                  Teacher
+                </h2>
+              </div>
+              <p>
+                Sharing knowledge is the key!
+              </p>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card-about">
+              <div class="card-about-title">
+                <i class="fa fa-play fa-3x" aria-hidden="true" style="color:#5CA4A9;"></i>
+                <h2>
+                  Meditator
+                </h2>
+              </div>
+              <p>
+                Mindfullness is the key to happiness
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card-about">
+              <div class="card-about-title">
+                <i class="fa fa-globe fa-3x" aria-hidden="true" style="color:#5B7553;"></i>
+                <h2>
+                  Eco-crazy
+                </h2>
+              </div>
+              <p>
+                I love the planet and would love keeping it beautiful
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RECENT PROJECTS -->
+    <div id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 header-title">
+            <h2>
+              Projects
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <a href="#">
+              <div class="card-project">
+                <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+
+                </div>
+                <div class="card-project-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, aliquam?
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href="#">
+              <div class="card-project">
+                <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+
+                </div>
+                <div class="card-project-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, aliquam?
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href="#">
+              <div class="card-project">
+                <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+
+                </div>
+                <div class="card-project-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, aliquam?
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href="#">
+              <div class="card-project">
+                <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+
+                </div>
+                <div class="card-project-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, aliquam?
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="education">
+      <div class="education-title">
+      <h2>
+        Education
+      </h2>
+
+      </div>
+      <div class="container">
+      <div class="page-header">
+          <h1 id="timeline">Timeline</h1>
+      </div>
+      <ul class="timeline">
+          <li>
+            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">UvA</h4>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015 </small></p>
+              </div>
+              <div class="timeline-body">
+                <p>Bachelor in Sociology</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Le Wagon</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2016 </small></p>
+              </div>
+              <div class="timeline-body">
+                <p> Learning Programming</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Le Wagon</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2017 </small></p>
+              </div>
+              <div class="timeline-body">
+                <p>Start teaching web development</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"></h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2018 </small></p>
+              </div>
+              <div class="timeline-body">
+                <p> Take over the world </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"></h4>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2019 </small></p>
+              </div>
+              <div class="timeline-body">
+                <p>Everyone is vegetarian and dislikes plastic</p>
+                <hr>
+              </div>
+            </div>
+          </li>
+      </ul>
+  </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="contact">
+      <h2>
+        Lets talk
+      </h2>
+      <p>
+        I'm always looking for new opportunities
+      </p>
+      <a href="mailto:inouridder@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>   inouridder@gmail.com</a>
+    </div>
+
+    <div id="footer">
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="">
+            <i class="fa fa-twitter fa-2x" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="">
+            <i class="fa fa-youtube fa-2x" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="">
+            <i class="fa fa-facebook fa-2x" aria-hidden="true">
+
+            </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="">
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true">
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  </html>
+
+      </xmp>
+    </pre>
+  </div>
+</div>
+
+  </body>
+</html>
