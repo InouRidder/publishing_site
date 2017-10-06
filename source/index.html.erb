@@ -435,7 +435,7 @@ a:hover {
         </div>
         <a href="#">
           <div class="card-project">
-            <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+            <div class="card-project-img">
 
             </div>
             <div class="card-project-content">
@@ -445,7 +445,7 @@ a:hover {
         </a>
         <a href="#">
           <div class="card-project">
-            <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+            <div class="card-project-img">
 
             </div>
             <div class="card-project-content">
@@ -455,7 +455,7 @@ a:hover {
         </a>
         <a href="#">
           <div class="card-project">
-            <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+            <div class="card-project-img">
 
             </div>
             <div class="card-project-content">
@@ -465,7 +465,7 @@ a:hover {
         </a>
         <a href="#">
           <div class="card-project">
-            <div class="card-project-img" style="background-image: url('https://unsplash.it/300/300?random')">
+            <div class="card-project-img">
 
             </div>
             <div class="card-project-content">
@@ -510,6 +510,46 @@ a:hover {
   </xmp>
 </pre>
 </div>
+
+<div class="step box">
+  <h2 class="box-title">
+    INTERMEZZO - Pictures!
+  </h2>
+  <p>
+    We made an images folder. Lets use it.
+  </p>
+  <ol>
+    <li>
+      Open up the folder in your finder. Drag and drop whatever image you want to display on your website.
+    </li>
+    <li>
+      Now we need to show them. In order to show them we need to explicitly write the <i>path</i> to the file. The path is always defined from the file where you want to use the picture to the picture. In the case of the <strong>index.hmtl</strong> the path to the file is <i>"images/banner.jpg"</i>
+      <br>
+       Two ways of adding pictures to your site. HTML & CSS <strong>In your html</strong>
+      <pre>
+        <xmp>
+          <img src="images/banner.jpg" alt="">
+          <img src="images/EXACTLY THE NAME OF THE IMAGE" alt="">
+        </xmp>
+      </pre>
+    </li>
+    <li>
+      Or attaching it to an html element through<strong> your CSS</strong>
+      <pre>
+        <xmp>
+          #banner {
+            background-image: url('images/banner.jpg');
+            width: 100%;
+            background-size: cover;
+            height: 100vh;
+          }
+        </xmp>
+      </pre>
+    </li>
+  </ol>
+</div>
+
+
 <div class="step box" id="6">
   <h2 class="box-title">
     Step 6
